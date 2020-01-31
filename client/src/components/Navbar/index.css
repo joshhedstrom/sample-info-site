@@ -1,0 +1,23 @@
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.header__title {
+  font-size: 48px;
+  margin: 20px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.header__subtitle {
+  font-size: 24px;
+  margin: 20px;
+}
