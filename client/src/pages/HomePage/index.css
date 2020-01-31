@@ -1,0 +1,15 @@
+.homepage__wrapper {
+  background-image: url('/assets/country-church.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+
+.landing__page__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
