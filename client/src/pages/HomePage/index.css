@@ -1,15 +1,58 @@
+html { 
+  scroll-snap-type: y mandatory;
+}
+
 .homepage__wrapper {
   background-image: url('/assets/country-church.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
 
+.scroll__child {
+  display: flex;
+
+  height: 100vh;
+  width: 100vw;
+
+  background: inherit;
+  
+  scroll-snap-align: start;
 }
 
 .landing__page__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mission_statement_wrapper {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.paragraph__wrapper {
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.paragraph__wrapper:before {
+  content: '';
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+  margin: -20px;
 }
