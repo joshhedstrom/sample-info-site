@@ -1,0 +1,13 @@
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+}
+
+.form__wrapper input, .form__wrapper textarea {
+    margin: 5px;
+    
+    border-radius: 5px;
+    height: 28px;
+}
