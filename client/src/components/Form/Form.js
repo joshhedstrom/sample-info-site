@@ -4,20 +4,21 @@ import './index.css';
 
 function Form(props) {
   return (
-    <div className="form__wrapper">
+    <div className='form__wrapper'>
       {props.formFields.map(field => {
         return field.textArea ? (
-          <div>
+          <>
             <label>{field.title}</label>
-            <textarea onChange={props.handleChange} />
-          </div>
+            <textarea name={field.name} onChange={props.handleChange} />
+          </>
         ) : (
-          <div>
+          <>
             <label>{field.title}</label>
-            <input onChange={props.handleChange} />
-          </div>
+            <input name={field.name} onChange={props.handleChange} />
+          </>
         );
       })}
+      <button className="form__submit" onClick={props.handleSubmit}>Submit</button>
     </div>
   );
 }

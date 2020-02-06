@@ -10,4 +10,25 @@
     
     border-radius: 5px;
     height: 28px;
+    font-size: 18px;
+}
+
+.form__wrapper textarea {
+    height: 120px;
+    overflow-y: scroll;
+}
+
+.form__wrapper label {
+    margin: 1px 8px;
+}
+
+.form__submit {
+    margin: 5px 25%;
+    border-radius: 5px;
+    height: 28px;
+    width: 50%;
+    background-color: mediumspringgreen;
+
+    font-size: 18px;
+
 }
