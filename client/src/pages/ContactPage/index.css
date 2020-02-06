@@ -1,0 +1,24 @@
+.contactpage__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+
+.contactpage__paragraph {
+    width: 50%;
+    margin-left: 25%;
+}
+.contactpage__content__wrapper {
+    align-self: center;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-bottom: 50px;
+}
+
