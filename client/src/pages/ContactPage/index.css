@@ -7,6 +7,12 @@
     height: 100vh;
 }
 
+.contactpage__banner {
+    height: 250px;
+    /* position: absolute; */
+    /* z-index: 20; */
+}
+
 .contactpage__paragraph {
     width: 50%;
     margin-left: 25%;
