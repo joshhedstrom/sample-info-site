@@ -10,13 +10,15 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div className="homepage__wrapper">
-        <div className="landing__page__wrapper scroll__child">
+      <div className='homepage__wrapper'>
+        <div className='landing__page__wrapper scroll__child'>
           <Navbar />
-          <Jumbotron text="country church" />
+          <div className='homepage__jumbotron'>
+            <Jumbotron text='classic clothing' />
+          </div>
         </div>
-        <div className="mission_statement_wrapper scroll__child">
-          <div className="paragraph__wrapper">
+        <div className='mission_statement_wrapper scroll__child'>
+          <div className='paragraph__wrapper'>
             <Paragraph />
           </div>
         </div>
