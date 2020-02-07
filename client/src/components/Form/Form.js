@@ -18,7 +18,9 @@ function Form(props) {
           </>
         );
       })}
-      <button className="form__submit" onClick={props.handleSubmit}>Submit</button>
+      <button className='form__submit' onClick={props.handleSubmit}>
+        Submit
+      </button>
     </div>
   );
 }
