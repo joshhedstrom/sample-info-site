@@ -1,4 +1,4 @@
-html { 
+html {
   scroll-snap-type: y mandatory;
 }
 
@@ -10,32 +10,28 @@ html {
   background-position: top center;
 }
 
-.homepage__jumbotron {
-  margin-left: 15%;
-}
-
-.scroll__child {
-  display: flex;
-
-  height: 100vh;
-  width: 100vw;
-
-  background: inherit;
-  
-  scroll-snap-align: start;
-}
-
-.landing__page__wrapper {
+.logo__wrapper {
   flex-direction: column;
   justify-content: space-between;
 }
 
-.mission_statement_wrapper {
+.scroll__child {
+  height: 100vh;
+  display: flex;
+  background: inherit;
+  scroll-snap-align: start;
+}
+
+.center__wrapper {
   flex-direction: column;
   justify-content: space-around;
 }
 
-.paragraph__wrapper {
+.homepage__jumbotron {
+  padding-left: 15%;
+}
+
+.frosted__glass__wrapper {
   width: 50%;
   margin-left: 25%;
   padding: 20px;
@@ -47,7 +43,7 @@ html {
   overflow: hidden;
 }
 
-.paragraph__wrapper:before {
+.frosted__glass__wrapper:before {
   content: '';
   position: absolute;
   background: inherit;
