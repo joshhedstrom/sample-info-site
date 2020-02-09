@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
     height: 100vh;
 }
 
 .contactpage__banner {
     height: 250px;
-    /* position: absolute; */
-    /* z-index: 20; */
+    margin: 2% 0;
+    /* align-self: flex-end; */
 }
 
 .contactpage__paragraph {
@@ -18,13 +18,15 @@
     margin-left: 25%;
 }
 .contactpage__content__wrapper {
+    /* width: 80%; */
     align-self: center;
-    width: 100%;
     
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
 
-    margin-bottom: 50px;
+.contactpage__content__wrapper *:first-child, .contactpage__content__wrapper *:last-child {
+    width: 45%;
 }
 

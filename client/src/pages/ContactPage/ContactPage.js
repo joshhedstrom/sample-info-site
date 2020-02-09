@@ -58,10 +58,8 @@ class ContactPage extends Component {
           <Banner image='/assets/cloud-banner.jpg'>
           </Banner>
         </div>
-        <div className='contactpage__paragraph'>
-          <Paragraph />
-        </div>
         <div className='contactpage__content__wrapper'>
+          <Paragraph />
           <Form {...this.state} handleChange={this.handleChange} handleSubmit={this.handleSubmit} />
         </div>
       </div>
