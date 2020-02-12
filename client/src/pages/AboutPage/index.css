@@ -1,0 +1,75 @@
+.aboutpage__wrapper {
+}
+
+.team__image {
+  background-image: url('/assets/team.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  height: 70vh;
+}
+
+@keyframes blink {
+  50% {
+    border: 3px solid lightseagreen;
+
+    border-radius: 50%;
+  }
+  /* to {
+    border: none;
+  } */
+}
+
+/* .profile__circle, */
+#user1,
+#user2,
+#user3,
+#user4,
+#user5,
+#user6,
+#user7,
+#user8 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 3px solid lightseagreen;
+
+  border-radius: 50%;
+
+  animation: blink 0.5s step-end infinite alternate;
+}
+
+.profile__circle:hover {
+  transition: all 1s ease-out;
+  transform: translate(115%, -25%);
+}
+
+#user1 {
+  margin: 150px 0 0 110px;
+}
+
+#user2 {
+  margin: 80px 0 0 360px;
+}
+
+#user3 {
+  margin: 40px 0 0 610px;
+}
+#user4 {
+  margin: 170px 0 0 800px;
+}
+#user5 {
+  margin: 180px 0 0 1010px;
+}
+#user6 {
+  margin: 105px 0 0 1240px;
+}
+#user7 {
+  margin: 50px 0 0 1410px;
+}
+
+#user8 {
+  margin: 130px 0 0 1625px;
+}

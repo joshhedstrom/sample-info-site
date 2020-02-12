@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 
 import Navbar from '../../components/Navbar';
-import Form from '../../components/Form/Form';
 
 import './index.css';
 class AboutPage extends Component {
   state = {};
 
-  handleChange = event => {
-    this.setState({ [event.target.name]: event.target.value });
-  };
-
-  handleSubmit = event => {
-    //validate fields
-    //make api call with this.state
-  };
-
   render() {
     return (
-      <div className='contactpage__wrapper'>
+      <div className='aboutpage__wrapper'>
         <Navbar />
-        <Form {...this.state} handleChange={this.handleChange} handleSubmit={this.handleSubmit} />
+        <div className='team__image'>
+          <div className='profile__circle'></div>
+          <div id='user1' />
+          <div id='user2' />
+          <div id='user3' />
+          <div id='user4' />
+          <div id='user5' />
+          <div id='user6' />
+          <div id='user7' />
+          <div id='user8' />
+        </div>
       </div>
     );
   }
