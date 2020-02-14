@@ -4,8 +4,6 @@
 
 .jumbotron__text {
     font-weight: bold;
-    /* color: #b4cee9; */
     color: black;
-    font-size: 96px;
-    /* text-shadow: 4px 4px black; */
+    font-size: 5em;
 }

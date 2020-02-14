@@ -42,7 +42,7 @@
 }
 
 .form__submit:hover {
-  transition: all 0.2s;
+  transition: all 0.2s; 
   box-shadow: 0 0.5em 0.5em -0.4em grey;
   transform: scale(1.01);
 }
