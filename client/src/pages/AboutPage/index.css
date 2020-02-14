@@ -22,7 +22,7 @@
   } */
 }
 
-/* .profile__circle, */
+.profile__circle,
 #user1,
 #user2,
 #user3,
@@ -38,12 +38,9 @@
 
   border-radius: 50%;
 
-  animation: blink 0.5s step-end infinite alternate;
-}
+  /* margin: 150px 0 0 110px; */
 
-.profile__circle:hover {
-  transition: all 1s ease-out;
-  transform: translate(115%, -25%);
+  transition: all 1s linear;
 }
 
 #user1 {
